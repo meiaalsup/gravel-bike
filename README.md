@@ -8,7 +8,7 @@ Export Twilio keys as environment variables:
 
 ## Run script
 run in background forever dump error logs to bike8.out
-`nohup python3 gravel-bike.py > bike8.out > 2>&1 &`
+`nohup python3 gravel-bike.py > bike8.out 2>&1 &`
 
 ## Check for process id
 `pgrep python3`
